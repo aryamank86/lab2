@@ -13,8 +13,8 @@ import numpy as np
 import pandas as pd
 import sklearn
 from sklearn import linear_model
-height=[[2.0],[4.0],[6.0],[8.0],[10.0],[12.0],[14.0]]
-weight=[[4.0],[8.0],[12.0],[16.0],[20.0],[24.0],[28.0]]
+height=[[2.0],[4.0],[6.0],[8.0],[10.0],[12.0],[14.0] , [15.0]]
+weight=[[4.0],[8.0],[12.0],[16.0],[20.0],[24.0],[28.0], [30.0]]
 plt.scatter(height,weight,color='black')
 plt.xlabel("height")
 plt.ylabel("weight")
